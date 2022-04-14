@@ -1,0 +1,202 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans JP", sans-serif;
+}
+p,
+a,
+input,
+label,
+textarea,
+span,
+ul,
+li {
+  font-family: "Open Sans", sans-serif;
+}
+
+#intro .jumbotron {
+  height: 70vh; /*vh means the height of the monitor*/
+}
+#intro h1 {
+  font-size: 53px;
+  line-height: 1.5;
+}
+
+#intro .btn,
+#email .btn {
+  background-color: #f50f5c;
+  padding: 10px 25px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 40px;
+}
+
+#intro .container {
+  margin-left: 10vh;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.navbar-brand img {
+  width: 155px;
+}
+header li {
+  padding-left: 25px;
+}
+header .container {
+  margin-left: 13vh;
+}
+#second img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-top: 50px;
+}
+figcaption {
+  margin-top: 20px;
+  margin-right: 35px;
+  font-size: 20px;
+}
+#second .lead {
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  color: initial;
+}
+#second p {
+  margin-left: 90px;
+  color: #707070;
+}
+#second {
+  padding: 80px 0px;
+}
+#latest h2 {
+  margin-bottom: 80px;
+}
+#latest {
+  padding: 80px 0px;
+  background-color: rgb(248, 248, 248);
+}
+#latest img {
+  max-width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 4px 4px 4px 4px;
+}
+#latest .tag {
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 7px;
+  color: #332b2b;
+}
+#latest .innertext {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  color: aliceblue;
+}
+#latest .upper {
+  position: relative;
+}
+#latest h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+i {
+  margin-right: 5px;
+}
+#latest .lower span {
+  line-height: 2;
+  margin-left: 10px;
+}
+#latest .lower h4 {
+  margin-left: 10px;
+}
+#latest .lower {
+  padding-bottom: 20px;
+}
+#latest .outer {
+  box-shadow: 0px 0px 5px black;
+  border-radius: 4px;
+}
+#latest .outer:hover {
+  box-shadow: 0px 0px 30px black;
+  transition: 0.4s;
+}
+#latest a {
+  color: initial;
+  text-decoration: initial;
+}
+
+#email {
+  margin: 150px 0px;
+}
+#email .upper h3 {
+  font-size: 40px;
+}
+#email .lower {
+  margin-top: 100px;
+  font-size: 20px;
+}
+#email .input-group {
+  margin-top: 20px;
+}
+
+footer img {
+  margin-bottom: 50px;
+  width: 100px;
+}
+footer .row {
+  margin-top: 70px;
+  line-height: 2;
+  color: #707070;
+}
+footer a {
+  color: #f50f5c;
+}
+footer h5 {
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+footer .link ul {
+  margin-top: 30px;
+  display: inline-block;
+  list-style: none;
+}
+footer .link ul:first-child {
+  padding: 0;
+}
+footer .link a {
+  color: #707070;
+}
+footer li {
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  #latest img {
+    width: 100%;
+  }
+  #latest .outer {
+    margin-bottom: 30px;
+  }
+  #second img {
+    margin-right: 18vh;
+  }
+  #second figcaption {
+    margin-right: 22vh;
+  }
+}
+@media only screen and (max-width: 855px) and (min-width: 765px) {
+  #intro .jumbotron .container {
+    margin: 0;
+  }
+}
